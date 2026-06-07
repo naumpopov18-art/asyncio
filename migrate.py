@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from models import Base
 
-DATABASE_URL = "postgresql://swapi_user:swapi_pass@127.0.0.1:5432/swapi"
+DATABASE_URL = "postgresql://swapi_user:swapi_pass@localhost:5432/swapi"
 
 def create_tables():
     try:
